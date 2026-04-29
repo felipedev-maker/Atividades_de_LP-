@@ -1,72 +1,89 @@
-📌 Atividade de LP
+# 📌 Atividade de LP
 
-Este projeto é um programa em linguagem C que reúne diversos exercícios fundamentais de lógica de programação, organizados em um menu interativo com 33 opções.
+Este projeto é um programa em linguagem C que reúne diversos exercícios fundamentais de lógica de programação, organizados em um menu interativo com **33 opções**.
 
-O objetivo principal é praticar estruturas de controle, manipulação de dados, arrays, strings e conceitos matemáticos.
+O objetivo principal é praticar estruturas de controle, manipulação de dados, arrays, strings e conceitos matemáticos básicos e avançados.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-O programa apresenta um menu com diversas opções, incluindo:
+O programa apresenta um menu robusto com diversas categorias:
 
-📊 Cálculos Matemáticos
-Média (diferentes estruturas: if, if/else, switch)
-Fatorial (do/while, while, for)
-Sequência de Fibonacci
-Progressão Aritmética (P.A)
-Exponenciação
-Raiz quadrada
-🔢 Manipulação de Vetores
-Encontrar maior e menor número
-Exibir lista em ordem inversa
-Multiplicação de valores por um número
-🔤 Manipulação de Strings
-Comparar palavras
-Identificar palíndromos
-Palíndromos em frases
-Converter para maiúsculo/minúsculo
-Concatenar strings
-Lista de nomes em maiúsculo
-🧮 Matrizes
-Multiplicação por escalar
-Soma de matrizes
-Subtração de matrizes
-Multiplicação de matrizes
-🎮 Extras
-Cara ou Coroa (simulação com números aleatórios)
-Jogo de Cartas 21 (Blackjack simplificado)
-🛠️ Tecnologias Utilizadas
-Linguagem: C
-Bibliotecas:
-stdio.h
-stdlib.h
-time.h
-math.h
-string.h
-▶️ Como Executar
-1. Compile o código:
-gcc programa.c -o programa -lm
-2. Execute:
+### 📊 Cálculos Matemáticos
+*   **Médias:** Implementações com diferentes estruturas (`if`, `if/else`, `switch`).
+*   **Fatorial:** Calculado via `do/while`, `while` e `for`.
+*   **Sequências:** Fibonacci e Progressão Aritmética (P.A).
+*   **Operações:** Exponenciação e Raiz quadrada.
+
+### 🔢 Manipulação de Vetores
+*   Busca de maior e menor número.
+*   Exibição de listas em ordem inversa.
+*   Multiplicação de valores por um escalar.
+
+### 🔤 Manipulação de Strings
+*   Comparação de palavras e identificação de palíndromos (palavras e frases).
+*   Conversão para maiúsculo/minúsculo e concatenação.
+*   Tratamento de listas de nomes.
+
+### 🧮 Matrizes
+*   Soma, subtração e multiplicação de matrizes.
+*   Multiplicação por escalar.
+
+### 🎮 Extras
+*   **Cara ou Coroa:** Simulação baseada em números aleatórios.
+*   **Jogo 21:** Blackjack simplificado contra a máquina.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+*   **Linguagem:** C
+*   **Bibliotecas Standard:** 
+    * `stdio.h`, `stdlib.h`, `time.h`, `math.h`, `string.h`
+
+---
+
+## ▶️ Como Executar
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. **Compile o código:**
+   
+```bash
+   gcc programa.c -o programa -lm
+Execute:
+
+Linux/macOS:
+
+Bash
 ./programa
+Windows:
 
-No Windows:
-
+Bash
 programa.exe
 🎯 Objetivo do Projeto
-
 Este projeto foi desenvolvido com foco em:
 
-Praticar lógica de programação
-Consolidar conceitos básicos da linguagem C
-Explorar diferentes formas de resolver problemas
-⚠️ Observações
-O código utiliza system("cls"), que funciona apenas no Windows
-O uso de fflush(stdin) pode não funcionar corretamente em todos os compiladores
-Algumas funções como strupr() podem não ser padrão em todos os ambientes
-📚 Possíveis Melhorias
-Separar o código em funções para melhor organização
-Validar entradas do usuário
-Melhorar o jogo 21 (evitar repetição de cartas)
-Criar versão com interface gráfica
-👨‍💻 Autor
+Praticar a lógica de programação pura.
 
+Consolidar conceitos fundamentais da linguagem C.
+
+Explorar diferentes formas de resolver o mesmo problema técnico.
+
+⚠️ Observações
+O código utiliza system("cls"), que é um comando nativo do Windows.
+
+O uso de fflush(stdin) pode apresentar comportamento inesperado dependendo do compilador.
+
+Funções como strupr() podem não ser padrão em todos os ambientes (específicos de algumas bibliotecas como a conio.h ou compiladores específicos).
+
+📚 Possíveis Melhorias
+[ ] Refatorar o código utilizando funções/procedimentos para melhor organização.
+
+[ ] Implementar validação de entradas do usuário para evitar erros de execução.
+
+[ ] Evoluir a lógica do Jogo 21 para evitar a repetição de cartas.
+
+[ ] Interface gráfica (GUI).
+
+👨‍💻 Autor
 Desenvolvido por Felipe Soares
