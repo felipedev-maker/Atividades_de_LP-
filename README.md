@@ -47,7 +47,6 @@ O programa apresenta um menu robusto com diversas categorias:
 Para rodar o projeto, utilize o terminal e siga os comandos abaixo:
 
 **1. Compilação:**
-```bash
 gcc programa.c -o programa -lm
 2. Execução:
 
@@ -87,5 +86,7 @@ Compatibilidade: Funções como strupr() podem não ser padrão em todos os ambi
 
 [ ] Interface: Criar uma versão com interface gráfica (GUI).
 
-👨‍💻 Autor
+__
+
+##👨‍💻 Autor
 Desenvolvido por Felipe Soares
