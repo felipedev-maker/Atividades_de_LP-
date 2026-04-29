@@ -44,15 +44,14 @@ O programa apresenta um menu robusto com diversas categorias:
 
 ## ▶️ Como Executar
 
-Para rodar o projeto localmente, siga os passos abaixo:
+Para rodar o projeto, utilize o terminal e siga os comandos abaixo:
 
-1. **Compile o código:**
-   
+**1. Compilação:**
 ```bash
-   gcc programa.c -o programa -lm
-Execute:
+gcc programa.c -o programa -lm
+2. Execução:
 
-Linux/macOS:
+Linux / macOS:
 
 Bash
 ./programa
@@ -70,20 +69,23 @@ Consolidar conceitos fundamentais da linguagem C.
 Explorar diferentes formas de resolver o mesmo problema técnico.
 
 ⚠️ Observações
-O código utiliza system("cls"), que é um comando nativo do Windows.
+[!IMPORTANT]
+Algumas funções utilizadas são dependentes de ambiente:
 
-O uso de fflush(stdin) pode apresentar comportamento inesperado dependendo do compilador.
+Limpeza de tela: O código utiliza system("cls"), que é um comando nativo do Windows.
 
-Funções como strupr() podem não ser padrão em todos os ambientes (específicos de algumas bibliotecas como a conio.h ou compiladores específicos).
+Buffer do teclado: O uso de fflush(stdin) pode apresentar comportamento inesperado dependendo do compilador (especialmente no GCC/Linux).
+
+Compatibilidade: Funções como strupr() podem não ser padrão em todos os ambientes ou bibliotecas.
 
 📚 Possíveis Melhorias
-[ ] Refatorar o código utilizando funções/procedimentos para melhor organização.
+[ ] Organização: Refatorar o código utilizando funções/procedimentos.
 
-[ ] Implementar validação de entradas do usuário para evitar erros de execução.
+[ ] Segurança: Implementar validação de entradas do usuário para evitar erros de execução.
 
-[ ] Evoluir a lógica do Jogo 21 para evitar a repetição de cartas.
+[ ] Lógica de Jogo: Evoluir o Jogo 21 para gerenciar um baralho real (evitar repetição de cartas).
 
-[ ] Interface gráfica (GUI).
+[ ] Interface: Criar uma versão com interface gráfica (GUI).
 
 👨‍💻 Autor
 Desenvolvido por Felipe Soares
