@@ -86,7 +86,7 @@ Compatibilidade: Funções como strupr() podem não ser padrão em todos os ambi
 
 [ ] Interface: Criar uma versão com interface gráfica (GUI).
 
-__
+---
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 Desenvolvido por Felipe Soares
